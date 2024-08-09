@@ -1,0 +1,149 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/dataset/345>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】AED設置公共施設一覧"@ja ;
+    dcterms:description "ふじみ野市でAEDが設置されている公共施設の一覧です。"@ja ;
+    dcterms:subject "社会保障・衛生"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "住民向け情報, 暮らしの情報, 共通データ, 救急, 消防, 施設情報, AED"@ja .
+
+<http://example.org/dataset/349>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】イベントカレンダー"@ja ;
+    dcterms:description "ふじみ野市のイベント情報です。"@ja ;
+    dcterms:subject "運輸・観光"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "イベント, 共通データ, 観光情報"@ja .
+
+<http://example.org/dataset/1113>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】オープンデータ一覧"@ja ;
+    dcterms:description "ふじみ野市のオープンデータ一覧です。"@ja ;
+    dcterms:subject "その他"@ja ;
+    dcterms:publisher <http://example.org/organization/112453> .
+
+<http://example.org/dataset/339>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】ごみ分別辞典"@ja ;
+    dcterms:description "ふじみ野市のごみ分別に関する情報です。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2022-07-26"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "ごみ, 環境保全, 住民向け情報, 暮らしの情報, 衛生"@ja .
+
+<http://example.org/dataset/350>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】ご当地キャラ情報"@ja ;
+    dcterms:description "ふじみ野市のご当地キャラふじみんの情報です。"@ja ;
+    dcterms:subject "運輸・観光"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "その他, 共通データ"@ja .
+
+<http://example.org/dataset/351>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】公共施設一覧"@ja ;
+    dcterms:description "ふじみ野市の公共施設の一覧です。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "施設情報, 住民向け情報, 暮らしの情報"@ja .
+
+<http://example.org/dataset/352>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】教育施設一覧"@ja ;
+    dcterms:description "ふじみ野市の教育施設の一覧です。"@ja ;
+    dcterms:subject "教育・文化"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "教育, 施設情報"@ja .
+
+<http://example.org/dataset/353>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】公園一覧"@ja ;
+    dcterms:description "ふじみ野市の公園の一覧です。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "公園, 環境保全"@ja .
+
+<http://example.org/dataset/354>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】図書館一覧"@ja ;
+    dcterms:description "ふじみ野市の図書館の一覧です。"@ja ;
+    dcterms:subject "教育・文化"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "図書館, 文化, 教育"@ja .
+
+<http://example.org/dataset/355>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】観光地情報"@ja ;
+    dcterms:description "ふじみ野市の観光地に関する情報です。"@ja ;
+    dcterms:subject "運輸・観光"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "観光地, 観光情報"@ja .
+
+<http://example.org/dataset/356>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】文化財情報"@ja ;
+    dcterms:description "ふじみ野市の文化財に関する情報です。"@ja ;
+    dcterms:subject "教育・文化"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "文化財, 教育, 文化"@ja .
+
+<http://example.org/dataset/357>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】避難所情報"@ja ;
+    dcterms:description "ふじみ野市の避難所に関する情報です。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "避難所, 防災, 安全"@ja .
+
+<http://example.org/dataset/358>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】地震危険度マップ"@ja ;
+    dcterms:description "ふじみ野市の地震危険度に関するマップです。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "地震, 危険度, マップ, 防災"@ja .
+
+<http://example.org/dataset/359>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】犯罪発生マップ"@ja ;
+    dcterms:description "ふじみ野市の犯罪発生に関するマップです。"@ja ;
+    dcterms:subject "司法・安全・環境"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "犯罪, 発生, マップ, 安全"@ja .
+
+<http://example.org/dataset/360>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】医療機関情報"@ja ;
+    dcterms:description "ふじみ野市の医療機関に関する情報です。"@ja ;
+    dcterms:subject "社会保障・衛生"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "医療機関, 健康, 衛生"@ja .
+
+<http://example.org/dataset/361>
+    a dcterms:Dataset ;
+    dcterms:title "【ふじみ野市】消防署情報"@ja ;
+    dcterms:description "ふじみ野市の消防署に関する情報です。"@ja ;
+    dcterms:subject "社会保障・衛生"@ja ;
+    dcterms:issued "2018-09-06"^^xsd:date ;
+    dcterms:publisher <http://example.org/organization/112453> ;
+    foaf:primaryTopic "消防署, 消防, 安全"@ja .
+
+<http://example.org/organization/112453>
+    a foaf:Organization ;
+    foaf:name "ふじみ野市"@ja .
